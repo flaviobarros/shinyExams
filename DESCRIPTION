@@ -1,5 +1,5 @@
 Package: shinyExams
-Title: What the Package Does (one line, title case)
+Title: Creates exams from a shiny app.
 Version: 0.0.0.1
 Authors@R: person("Flavio", "Barros", email = "flavio.barros@ifsp.edu.br", role = c("aut", "cre"))
 Description: Shiny app that aids the creation of questions with the package exams.

@@ -4,7 +4,10 @@
 #'
 #' @export
 criaTexto <- function() {
-  file.create('Teste.Rd')
-  rstudioapi::navigateToFile('Teste.Rd')
+  if (!file.exists('Teste.Rd')) {
+    file.create('Teste.Rd')
+  }
+  rstudioapi::navigateToFile('Teste.Rd', line = 1, column = 1)
+  rstudioapi::getActiveDocumentContext()
   rstudioapi::setDocumentContents('random text')
 }

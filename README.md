@@ -7,7 +7,9 @@ Status](https://img.shields.io/codecov/c/github/flaviobarros/shinyExams/master.s
 
 # shinyExams
 
-The goal of shinyExams is to provide a shiny interface for the package
+The goal of shinyExams is to provide [RStudio
+Addins](https://rstudio.github.io/rstudio-extensions/rstudio_addins.html)
+and a Shiny interface for the package
 [exams](https://cran.r-project.org/web/packages/exams/index.html).
 
 ## Installation
@@ -26,10 +28,11 @@ text](https://github.com/flaviobarros/shinyExams/blob/master/man/shinyExams.gif)
 
 ## WARNING
 
-This is experimental package. You could wait for lots of changes.
+This is an experimental package, so you can expect a lot of changes.
 
 ## TO DO
 
+  - more addins
   - eliminate hardcoded templates
   - better folder structure
   - better layout

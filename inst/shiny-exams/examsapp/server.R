@@ -106,6 +106,7 @@ shinyServer(function(input, output, session)
 
   output$player <- renderUI({
     if(!is.null(input$play_exercise)) {
+      print('chegou aqui!')
       if(input$play_exercise > 0) {
         unlink(dir("tmp", full.names = TRUE, recursive = TRUE))
         excode <- exercise_code()

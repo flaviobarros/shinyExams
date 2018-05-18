@@ -36,3 +36,5 @@ man/*.gif
 ^\.travis\.yml$
 ^CONDUCT\.md$
 ^codecov\.yml$
+^README\.Rmd$
+^README-.*\.png$

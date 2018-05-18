@@ -1,20 +1,24 @@
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/shinyExams)](https://cran.r-project.org/package=shinyExams)
-[![Coverage Status](https://img.shields.io/codecov/c/github/flaviobarros/shinyExams/master.svg)](https://codecov.io/github/flaviobarros/shinyExams?branch=master)
 
-# Overview
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-This package provides a shiny interface for the package [exams](https://cran.r-project.org/web/packages/exams/index.html).
+# shinyExams
 
+The goal of shinyExams is to provide a shiny interface for the package
+[exams](https://cran.r-project.org/web/packages/exams/index.html).
 
 ## Installation
 
-   ```R
-   devtools::install_github("flaviobarros/shinyExams")
-   ```
+You can install shinyExams from github with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("flaviobarros/shinyExams")
+```
 
 ## Usage
 
-![alt text](https://github.com/flaviobarros/shinyExams/blob/master/man/shinyExams.gif)
+![alt
+text](https://github.com/flaviobarros/shinyExams/blob/master/man/shinyExams.gif)
 
 ## WARNING
 
@@ -22,7 +26,7 @@ This is experimental package. You could wait for lots of changes.
 
 ## TO DO
 
-* elimiate hardcoded templates
-* better folder structure 
-* better layout
-* advanced and begginer interface
+  - eliminate hardcoded templates
+  - better folder structure
+  - better layout
+  - advanced and begginer interface

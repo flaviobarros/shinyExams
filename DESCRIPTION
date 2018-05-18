@@ -6,7 +6,7 @@ Description: Shiny app that aids the creation of questions with the package exam
 URL: https://github.com/flaviobarros/shinyExams
 BugReports: https://github.com/flaviobarros/shinyExams/issues
 Depends:
-    R (>= 3.4.2)
+    R (>= 3.4.0)
 Imports:
     shiny (>= 1.0.5),
     miniUI (>= 0.1.1),

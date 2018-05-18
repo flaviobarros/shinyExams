@@ -2,7 +2,6 @@
 
 export(createExams)
 export(get_template_code)
-export(runExams)
 import(exams)
 import(miniUI)
 import(shiny)

@@ -2,7 +2,6 @@
 #'
 #' Call this function to start the shiny app.
 #'
-#' @export
 runExams <- function() {
 
   ## Input handler for questions

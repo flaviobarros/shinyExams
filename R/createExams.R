@@ -19,10 +19,10 @@ createExams <- function() {
 
       ## Main edition
       fluidRow(
-        column(4,
-               uiOutput("select_imported_exercise"),
-               conditionalPanel('input.selected_exercise != ""', uiOutput("show_selected_exercise"))
-        ),
+        # column(4,
+        #        uiOutput("select_imported_exercise"),
+        #        conditionalPanel('input.selected_exercise != ""', uiOutput("show_selected_exercise"))
+        # ),
         column(4,
                selectInput("exencoding", label = "Encoding?", choices = c("ASCII", "UTF-8", "Latin-1", "Latin-2", "Latin-3",
                                                                           "Latin-4", "Latin-5", "Latin-6", "Latin-7", "Latin-8", "Latin-9", "Latin-10"),

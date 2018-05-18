@@ -1,14 +1,3 @@
-#' Chooser Input
-#'
-#' @param inputId
-#' @param leftChoices
-#' @param rightChoices
-#' @param size
-#' @param multiple
-#'
-#' @return
-#'
-#' @examples
 chooserInput <- function(inputId, leftChoices, rightChoices, size = 5, multiple = FALSE) {
   leftChoices <- lapply(leftChoices, tags$option)
   rightChoices <- lapply(rightChoices, tags$option)

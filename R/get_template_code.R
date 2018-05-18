@@ -10,6 +10,7 @@
 #'
 #' @examples
 #' get_template_code('mchoice', 'LaTeX')
+#' @keywords internal
 get_template_code <- function(type, markup = 'LaTeX') {
   if(markup == "LaTeX") {
     excode <- switch(type,

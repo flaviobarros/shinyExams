@@ -1,5 +1,6 @@
 ## ui.R ##
 library(shiny)
+library(shinyAce)
 shinyUI(pageWithSidebar(
 
   ## Application title.

@@ -1,3 +1,6 @@
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/shinyExams)](https://cran.r-project.org/package=shinyExams)
+[![Coverage Status](https://img.shields.io/codecov/c/github/flaviobarros/shinyExams/master.svg)](https://codecov.io/github/flaviobarros/shinyExams?branch=master)
+
 # Overview
 
 This package provides a shiny interface for the package [exams](https://cran.r-project.org/web/packages/exams/index.html).

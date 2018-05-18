@@ -1,0 +1,4 @@
+Name: Create file text
+Description: Create a file and insert text.
+Binding: criaTexto
+Interactive: false

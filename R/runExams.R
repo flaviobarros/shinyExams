@@ -1,14 +1,12 @@
-#' @import shiny
-#' @import shinyAce
-#' @import shinyTree
-#' @import shinyFiles
-#' @import tools
-#' @import exams
+#' Starts the shiny app
+#'
+#' Call this function to start the shiny app.
+#'
 #' @export
 createExams <- function() {
 
   ## Input handler for questions
-  registerInputHandler("shinyjsexamples.chooser", function(data, ...) {
+  shiny::registerInputHandler("shinyjsexamples.chooser", function(data, ...) {
     if(is.null(data))
       NULL
     else

@@ -3,7 +3,7 @@
 #' Call this function to start the shiny app.
 #'
 #' @export
-createExams <- function() {
+runExams <- function() {
 
   ## Input handler for questions
   shiny::registerInputHandler("shinyjsexamples.chooser", function(data, ...) {

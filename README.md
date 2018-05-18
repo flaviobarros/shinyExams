@@ -4,6 +4,8 @@
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/shinyExams)](https://cran.r-project.org/package=shinyExams)
 [![Coverage
 Status](https://img.shields.io/codecov/c/github/flaviobarros/shinyExams/master.svg)](https://codecov.io/github/flaviobarros/shinyExams?branch=master)
+[![Travis-CI Build
+Status](https://travis-ci.org/flaviobarros/shinyExams.svg?branch=master)](https://travis-ci.org/flaviobarros/shinyExams)
 
 # shinyExams
 

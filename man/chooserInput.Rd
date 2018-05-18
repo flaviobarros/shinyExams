@@ -2,16 +2,11 @@
 % Please edit documentation in R/chooserInput.R
 \name{chooserInput}
 \alias{chooserInput}
-\title{Chooser Input}
+\title{Starts the shiny app}
 \usage{
 chooserInput(inputId, leftChoices, rightChoices, size = 5, multiple = FALSE)
 }
-\arguments{
-\item{multiple}{}
-}
-\value{
-
-}
 \description{
-Chooser Input
+Call this function to start the shiny app.
 }
+\keyword{internal}

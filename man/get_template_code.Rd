@@ -20,3 +20,4 @@ Get templates to show in the editor viewer
 \examples{
 get_template_code('mchoice', 'LaTeX')
 }
+\keyword{internal}

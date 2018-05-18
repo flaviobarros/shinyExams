@@ -1,3 +1,8 @@
+#' Starts the shiny app
+#'
+#' Call this function to start the shiny app.
+#'
+#'@keywords internal
 chooserInput <- function(inputId, leftChoices, rightChoices, size = 5, multiple = FALSE) {
   leftChoices <- lapply(leftChoices, tags$option)
   rightChoices <- lapply(rightChoices, tags$option)

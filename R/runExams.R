@@ -2,6 +2,7 @@
 #'
 #' Call this function to start the shiny app.
 #'
+#'@keywords internal
 runExams <- function() {
 
   ## Input handler for questions

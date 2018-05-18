@@ -1,4 +1,4 @@
-Name: Create file text
+Name: Create Exercises
 Description: Create a file and insert text.
-Binding: criaTexto
+Binding: createExams
 Interactive: false

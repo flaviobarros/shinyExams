@@ -9,3 +9,4 @@ runExams()
 \description{
 Call this function to start the shiny app.
 }
+\keyword{internal}

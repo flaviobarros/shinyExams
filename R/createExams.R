@@ -8,6 +8,7 @@
 #' @import miniUI
 #' @import exams
 #' @import tools
+#' @import utils
 # We'll wrap our Shiny Gadget in an addin.
 # Let's call it 'clockAddin()'.
 createExams <- function() {

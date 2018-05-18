@@ -226,6 +226,12 @@ createExams <- function() {
       }
     })
 
+    foo <- function(x) {
+      for(i in seq_along(x))
+        cat(x[i], "\n")
+      invisible(NULL)
+    }
+
     output$show_exercises <- renderPrint({
       foo(available_exercises())
     })

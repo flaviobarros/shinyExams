@@ -1,0 +1,35 @@
+<<echo=FALSE, results=hide>>=
+## DATA GENERATION EXAMPLE
+x <- c(33, 3, 33, 333)
+y <- c(3, 3, 1/6, 1/33.3)
+solutions <- x * y
+@
+
+\begin{question}
+%% Enter the question here, you can access R variables with \Sexpr{},
+%% e.g., \Sexpr{solutions[1]} will return the solution of the first statement.
+Which of the following statements is correct?
+\begin{answerlist}
+  \item $33 \cdot 3 = 109$
+  \item $3 \cdot 3 = 9$
+  \item $33 / 6 = 5.5$
+  \item $333 / 33.3 = 9$
+\end{answerlist}
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+\begin{answerlist}
+  \item False. Correct answer is $33 \cdot 3 = 99$.
+  \item True.
+  \item True.
+  \item False. Correct answer is $333 / 33.3 = 10$.
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{mchoice}
+%% \exsolution{0110}
+%% \exname{Simple math}
+%% \exshuffle{TRUE}

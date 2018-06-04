@@ -1,0 +1,38 @@
+<<echo=FALSE, results=hide>>=
+## DATA GENERATION EXAMPLE
+x <- c(-0.17, 0.63, 0.96, 0.97, -0.77)
+Mean <- mean(x)
+Sd <- sd(x)
+Var <- var(x)
+@
+
+\begin{question}
+%% Enter the question here, you can access R variables with \Sexpr{},
+%% e.g., \Sexpr{Mean} will return the mean of variable x in the R code above.
+Given the following numbers: \\
+$
+-0.17, 0.63, 0.96, 0.97, -0.77.
+$
+\begin{answerlist}
+  \item What is the mean?
+  \item What is the standard deviation?
+  \item What is the variance?
+\end{answerlist}
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+
+\begin{answerlist}
+  \item The mean is $0.324$.
+  \item The standard deviation is $0.767515$.
+  \item The variance is $0.58908$.
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{cloze}
+%% \exsolution{0.324|0.767515|0.58908}
+%% \exclozetype{num|num|num}
+%% \exname{Statistics}
+%% \extol{0.01}

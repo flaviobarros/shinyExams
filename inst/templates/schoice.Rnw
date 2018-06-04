@@ -1,0 +1,35 @@
+<<echo=FALSE, results=hide>>=
+## DATA GENERATION EXAMPLE
+cities <- c("Munich", "Innsbruck", "Zurich", "Amsterdam")
+countries <- c("Germany", "Austria", "Switzerland", "Netherlands")
+question <- sample(cities, size = 1)
+@
+
+\begin{question}
+%% Enter the question here, you can access R variables with \Sexpr{},
+%% e.g., \Sexpr{question} will return the name of the sampled city in the code above.
+In which country is Munich?
+\begin{answerlist}
+  \item Austria
+  \item Germany
+  \item Switzerland
+  \item Netherlands
+\end{answerlist}
+\end{question}
+
+\begin{solution}
+%% Supply a solution here!
+Munich is in Germany.
+\begin{answerlist}
+  \item False.
+  \item True.
+  \item False.
+  \item False.
+\end{answerlist}
+\end{solution}
+
+%% META-INFORMATION
+%% \extype{schoice}
+%% \exsolution{0100}
+%% \exname{Mean}
+%% \exshuffle{Cities}

@@ -171,9 +171,9 @@ createExams <- function() {
           if(excode[1] != "Create/edit exercises here!") {
             #exname <- if(is.null(input$exname)) paste("shinyEx", input$exmarkup, sep = ".") else input$exname
             #exname <- gsub("/", "_", exname, fixed = TRUE)
-            exname <- tempfile()
+            exname <- tempfile(fileext = input$exmarkup)
             writeLines(excode, exname)
-            ex <- try(exams2html(exname, n = 1, name = "preview", dir = tempdir(), edir = tempdir(),
+            ex <- try(exams2html(exname, n = 1, name = "preview", dir = tempdir(), edir = tempdir(), mathjax = T,
                                  base64 = c("bmp", "gif", "jpeg", "jpg", "png", "csv", "raw", "txt", "rda", "dta", "xls", "xlsx", "zip", "pdf", "doc", "docx"),
                                  encoding = input$exencoding), silent = TRUE)
             if(!inherits(ex, "try-error")) {
@@ -244,11 +244,16 @@ createExams <- function() {
       stopApp()
     })
 
+    # Listen for 'done' events. When cancel no error
+    observeEvent(input$cancel, {
+      stopApp(NULL)
+    })
+
   }
 
   # We'll use a pane viwer, and set the minimum height at
   # 300px to ensure we get enough screen space to display the clock.
-  viewer <- paneViewer(300)
+  viewer <- dialogViewer(dialogName = 'Exercices', width = 1200)
   runGadget(ui, server, viewer = viewer)
 
 }
